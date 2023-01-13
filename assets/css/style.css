@@ -153,6 +153,7 @@ p {
 /*BOTTOM*/
 .bottom {
   display: flex;
+  justify-content: center;
   padding-left: 5%;
   padding-right: 5%;
   margin-top: 60px;
@@ -222,7 +223,14 @@ p {
   flex-direction: column;
   position: -webkit-sticky;
   position: sticky;
-  top: 75px;
+  top: 80px;
+  width: 400px;
+}
+
+.row1 h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .main .row2 {
@@ -232,10 +240,10 @@ p {
 
 .row2 ul li {
   margin: 4px;
-  padding: 15px;
+  padding: 12px 16px;
   color: gray;
   font-size: 13px;
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.411);
 }
 
 .main .row3 {
@@ -246,7 +254,8 @@ p {
 .row3 ul li {
   color: gray;
   font-size: 13px;
-  margin: 4px;
+  margin: 6px;
+  padding: 3px;
 }
 
 .one_of_three ul {
