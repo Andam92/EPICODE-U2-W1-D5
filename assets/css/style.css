@@ -277,12 +277,13 @@ p {
 }
 
 .bottom .subtitle img {
-  width: 25px;
+  width: 27px;
   margin-right: 30px;
 }
 
 .bottom span {
-  padding: 3px 8px;
+  margin-left: 3px;
+  padding: 3px 10px;
   background-color: rgba(230, 230, 230, 0.582);
   border-radius: 10px;
 }
